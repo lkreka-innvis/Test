@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  padding: 20px;
+  max-width: 400px;
+  background-color: #212121;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 400px;
+}
+h2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+.small {
+    font-size: 20px;
+}
+button {
+  background-color: #499575;
+  color: white;
+  padding: 15px;
+  width: 300px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+}
+
+@media screen and (max-width: 569px) {
+  .image {
+    width: 300px;
+  }
+  button {
+    width: 200px;
+    padding: 10px;
+  }
+}

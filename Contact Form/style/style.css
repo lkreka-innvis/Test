@@ -1,0 +1,214 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("../mountains.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("../mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-container {
+  max-width: 800px;
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (max-width: 869px) {
+  .contact-container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 610px) {
+  .contact-container {
+    max-width: 300px;
+  }
+}
+
+.contact-container input {
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+}
+
+.contact-title {
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact-title::after {
+  content: "";
+  width: 150px;
+  height: 15px;
+  background-color: #34495e;
+  display: block;
+  margin-top: 50px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contact-us {
+  width: 100%;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 869px) {
+  .contact-us {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 610px) {
+  .contact-us {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 610px) {
+  .contact-us div {
+    max-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-us div {
+    max-width: 200px;
+  }
+}
+
+.contact-us input {
+  width: 700px;
+  height: 30px;
+  margin: 20px;
+}
+
+@media (max-width: 869px) {
+  .contact-us input {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 610px) {
+  .contact-us input {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-us input {
+    max-width: 200px;
+  }
+}
+
+.contact-us textarea,
+.contact-us input {
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 20px 35px;
+}
+
+.contact-us textarea:focus,
+.contact-us input:focus {
+  -webkit-box-shadow: 0 0 20px #386d9e;
+          box-shadow: 0 0 20px #386d9e;
+  border-color: transparent;
+  outline: none;
+}
+
+.contact-us textarea {
+  width: 700px;
+  height: 100px;
+  resize: none;
+}
+
+@media (max-width: 869px) {
+  .contact-us textarea {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 610px) {
+  .contact-us textarea {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-us textarea {
+    max-width: 200px;
+  }
+}
+
+.contact-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.contact-button button {
+  width: 150px;
+  background-color: #34495e;
+  padding: 10px 29px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accoridans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 700px;
+  width: 100%;
+  background-color: #1765b5;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.accoridans-button {
+  margin-bottom: 20px;
+}
+
+.accoridans-info {
+  border: 1px solid #fff;
+}
+
+.accoridans-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 15px;
+  text-transform: capitalize;
+}
+
+.accoridans-title h1 {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 568px) {
+  .accoridans-title {
+    gap: 15px;
+    font-size: 16px;
+  }
+}
+
+.accoridans-title .accoridans-icon.active {
+  -webkit-transform: rotate(176deg);
+          transform: rotate(176deg);
+}
+
+.accoridans-contnent {
+  display: none;
+}
+
+.accoridans-contnent p {
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.accoridans-contnent.active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

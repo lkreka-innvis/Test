@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accoridans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    background-color:#1765b5 ;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+  &-button{
+ margin-bottom: 20px;
+  }
+
+    &-info{
+        border: 1px solid #fff;
+    }
+    &-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-size: 20px;
+        padding:0 15px;
+        text-transform: capitalize;
+        h1{
+            font-weight: 100;
+            font-size: 20px;
+        }
+        @media screen and (max-width:568px) {
+            gap: 15px;
+            font-size: 16px;
+        }
+        .accoridans-icon{
+            &.active{
+              transform: rotate(176deg);  
+            }
+            
+        }
+    }
+    &-contnent{
+        p{
+            font-size: 18px;
+            padding: 0 20px;
+        }
+     display: none;
+     &.active{
+        display: block;
+     }
+    }
+}
